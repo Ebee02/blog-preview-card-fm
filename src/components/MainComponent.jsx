@@ -4,9 +4,9 @@ import "./MainComponent.css";
 function MainComponent() {
   return (
     <main className="min-h-screen text-[16px] bg-main-yellow flex flex-col items-center justify-center py-6">
-      <div className="main-container w-[375px] bg-white p-5 rounded-xl">
+      <div className="main-container w-[375px] bg-white p-5 rounded-xl border-t-2 border-l-2 border-black">
         <div className="image h-[220px] rounded-xl mb-6"></div>
-        <h2 className="bg-main-yellow tag font-bold w-24 py-2 flex items-center justify-center mb-4 cursor-pointer rounded-md shadow-sm">
+        <h2 className="bg-main-yellow tag font-semibold w-24 py-2 flex items-center justify-center mb-4 cursor-pointer rounded-md shadow-lg">
           Learning
         </h2>
         <p className="font-semibold mb-4 ">Published 21 Dec 2023</p>
@@ -24,17 +24,17 @@ function MainComponent() {
           <p className="font-bold ">Greg Hooper</p>
         </div>
       </div>
-      <div className="mt-6 font-semibold text-lg">
+      <div className="mt-6 font-bold tracking-wide text-center">
         Challenge by{" "}
         <a
-          className="text-white"
+          className="text-cyan-600"
           href="https://www.frontendmentor.io?ref=challenge"
           target="_blank"
         >
           Frontend Mentor
         </a>{" "}
         Coded by{" "}
-        <a href="#" className="text-white">
+        <a href="#" className="text-cyan-600">
           Tech-Rocket
         </a>
       </div>
