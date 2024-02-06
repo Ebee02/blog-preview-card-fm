@@ -21,7 +21,7 @@ function MainComponent() {
             src="../../public/assets/images/user-pic.jpg"
             alt="user"
           />{" "}
-          <p className="font-bold ">Greg Hooper</p>
+          <p className="font-bold ">Gregfina Hooper</p>
         </div>
       </div>
       <div className="mt-6 font-bold tracking-wide text-center">
