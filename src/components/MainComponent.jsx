@@ -19,7 +19,7 @@ function MainComponent() {
           <img
             className="w-14 h-14 cursor-pointer rounded-full"
             src="../../public/assets/images/user-pic.jpg"
-            alt="user pic"
+            alt="user"
           />{" "}
           <p className="font-bold ">Greg Hooper</p>
         </div>
