@@ -4,7 +4,7 @@ import "./MainComponent.css";
 function MainComponent() {
   return (
     <main className="min-h-screen text-[16px] bg-main-yellow flex flex-col items-center justify-center py-6">
-      <div className="main-container w-[375px] bg-white p-5 rounded-xl border-t-2 border-l-2 border-black">
+      <div className="main-container w-[375px] bg-white p-5 rounded-xl border-2 border-black">
         <div className="image h-[220px] rounded-xl mb-6"></div>
         <h2 className="bg-main-yellow tag font-semibold w-24 py-2 flex items-center justify-center mb-4 cursor-pointer rounded-md shadow-lg">
           Learning
