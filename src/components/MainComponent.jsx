@@ -18,7 +18,7 @@ function MainComponent() {
         <div className="flex items-center gap-x-3">
           <img
             className="w-14 h-14 cursor-pointer rounded-full"
-            src="../../public/assets/images/user-pic.jpg"
+            src="/assets/images/user-pic.jpg"
             alt="user"
           />{" "}
           <p className="font-bold ">Gregfina Hooper</p>
